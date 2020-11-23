@@ -1,0 +1,7 @@
+#!/bin/sh
+read -p 'commit message: ' commitmes 
+git add . &&
+git status &&
+git commit -m $commitmes &&
+git push origin master 
+
